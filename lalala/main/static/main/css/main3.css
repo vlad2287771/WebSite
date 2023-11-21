@@ -1,0 +1,121 @@
+body{
+    background-image: url(../img/Background_with_text.jpg);
+
+
+}
+
+
+aside{
+    float:left;
+    background:black;
+    padding: 2.5%;
+    height: 100vh;
+    color: black;
+    border-right:5px solid gray
+}
+
+aside img{
+    width: 200px;
+    float: left;
+}
+
+aside . logo {
+    font-size: 65px;
+    margin-left: 10px;
+    font-width:bold;
+
+}
+
+aside h3 {
+    margin-top: 50 px;
+    font-size: 5 px;
+}
+aside ul {list-style: none}
+
+aside ul li{
+    color: blue;
+    display: block;
+    margin-top: 10px;
+    transition: all .6s;
+    margin-left: -32px
+}
+
+aside ul li: hover aside, ul a:hover {
+    color: green;
+    text-decoration: none;
+    transform: scale(1.05)
+}
+
+main .f {
+    float: left;
+    background:black;
+    color:white;
+    margin-top: 0px;
+    text-align: center;
+    width:83.4%;
+    opacity: 0.7;
+    filter: alpha(Opacity=70);
+}
+
+main .f h1 {font-size: 50px;}
+main .f p { margin: 30px;
+            font-size: 20px;}
+
+.alert-warning {
+    float: left;
+    clear: both;
+    width: 550px;
+    margin: 20px 34%;
+    text-align:left
+}
+
+form {
+    margin-left: 32%;
+    width: 500px;
+    margin-top: 50px;
+}
+
+main .b h6 {font-size: 20px;}
+
+
+
+.btn {
+	display: inline-block;
+	box-sizing: border-box;
+	padding: 0 25px;
+	margin: 0 15px 15px 0;
+	outline: none;
+	border: 1px solid #fff;
+	border-radius: 50px;
+	height: 46px;
+	line-height: 46px;
+	font-size: 14px;
+	font-weight: 600;
+	text-decoration: none;
+	color: #444;
+	background-color: #fff;
+	box-shadow: 0 4px 6px rgb(65 132 144 / 10%), 0 1px 3px rgb(0 0 0 / 8%);
+	cursor: pointer;
+	user-select: none;
+	appearance: none;
+	touch-action: manipulation;
+	vertical-align: top;
+	transition: box-shadow 0.2s;
+}
+.btn:focus-visible {
+	border: 1px solid #4c51f9;
+	outline: none;
+}
+.btn:hover {
+	transition: all 0.2s;
+	box-shadow: 0 7px 14px rgb(65 132 144 / 10%), 0 3px 6px rgb(0 0 0 / 8%);
+}
+.btn:active {
+	background-color: #808080;
+}
+.btn:disabled {
+	background-color: #eee;
+	border-color: #eee;
+	color: #444;
+	cursor: not-allowed;
+}

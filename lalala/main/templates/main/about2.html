@@ -1,0 +1,11 @@
+{% extends 'main/loaut.html' %}
+
+{% block title %}Обо мне{% endblock %}
+
+{% block content %}
+    <div class="f">
+        <h1>Про нас</h1>
+        <p>Всем привет! Я и моя команда пишем сайты и реализуем другие проекты выкладывая код в открытый доступ на github. Описание и ссылку на проект в github Вы можете посмотреть на нашем сайте.</p>
+        <a href="{% url 'projects' %}" class="btn btn-warning">Смотреть работы</a>
+    </div>
+{% endblock %}

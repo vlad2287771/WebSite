@@ -1,0 +1,23 @@
+{% extends 'main/loaut.html' %}
+
+{% block title %}Проекты на сайте{% endblock %}
+
+{% block content %}
+    <div class="f">
+        <h1>Проекты на сайте</h1>
+        {% if projects %}
+
+            {% for el in projects %}
+                <div class="alert alert-warning">
+                    <h3>{{el.title}}</h3>
+                    <p>{{el.anons}}</p>
+                    <a href="{% url 'projects-detail' el.id %}" class="btn btn-warning">Читать детальнее</a>
+                </div>
+            {% endfor %}
+        {% else %}
+            <p>У вас нет записей!</p>
+        {% endif %}
+
+        {# Комментарий #}
+    </div>
+{% endblock %}

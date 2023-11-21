@@ -1,0 +1,14 @@
+{% extends 'main/loaut.html' %}
+
+{% block title %}Сайт-портфолио{% endblock %}
+
+{% block content %}
+    <div class="f">
+        <h1>{{ title }}</h1>
+        {# filter upper #}
+        {# endfilter #}
+        <a href="{% url 'me' %}" class="btn btn-warning">Обо мне</a>
+
+
+    </div>
+{% endblock %}
